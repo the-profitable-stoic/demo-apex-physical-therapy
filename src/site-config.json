@@ -1,0 +1,568 @@
+{
+  "business": {
+    "name": "Apex Physical Therapy",
+    "phone": "555-phy-r92",
+    "category": "physical-therapy",
+    "city": "Boise",
+    "state": "ID"
+  },
+  "design": {
+    "preset": {
+      "id": "physical-therapy-red-charge",
+      "categoryGroup": "physical-therapy",
+      "name": "Red Charge",
+      "recipeFile": "physical-therapy/red-charge.astro",
+      "colors": {
+        "primary": "#2563EB",
+        "primaryDark": "#1D4ED8",
+        "primaryLight": "#c9d8fa",
+        "secondary": "#2159d4",
+        "accent": "#22C55E",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#2563EB",
+        "surface": "#F5F7FA",
+        "text": "#111827",
+        "textLight": "#6B7280",
+        "textOnDark": "#FFFFFF",
+        "border": "#E5E7EB"
+      },
+      "typography": {
+        "headingFont": "DM Sans",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "8px",
+        "buttonRadius": "8px",
+        "cardRadius": "12px",
+        "shadowStyle": "soft"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "physical-therapy/red-charge"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Expert Physical Therapy in Boise",
+      "heroSubline": "Personalized care to help you move freely again. Our Boise clinic specializes in tailored recovery plans for active Idaho lifestyles.",
+      "aboutTitle": "Trusted Boise Physical Therapy",
+      "aboutText": [
+        "Founded in 2012, Apex Physical Therapy has grown from a single clinic to Boise's most trusted rehabilitation provider. We understand how Idahoans push their bodies - whether skiing at Bogus Basin or hiking the Greenbelt.",
+        "Our evidence-based approach combines manual therapy with functional movement training. We don't just treat symptoms; we address the root causes of pain and mobility issues.",
+        "As active members of the Treasure Valley community, we sponsor local running clubs and offer free injury prevention workshops at Boise schools."
+      ],
+      "valueProps": [
+        {
+          "title": "Local Experts",
+          "description": "12 years serving Boise with specialized knowledge of regional active lifestyles and common injuries"
+        },
+        {
+          "title": "Personalized Plans",
+          "description": "Custom treatment programs accounting for your home environment, work demands, and fitness goals"
+        },
+        {
+          "title": "Results-Focused",
+          "description": "Progressive treatment plans with measurable milestones to track your recovery journey"
+        },
+        {
+          "title": "Community Connected",
+          "description": "Deep relationships with Boise physicians, coaches, and fitness professionals for coordinated care"
+        }
+      ],
+      "ctaHeadline": "Start Your Recovery Today",
+      "ctaSubline": "Schedule a consultation to discuss how we can help you regain mobility and return to the activities you love."
+    },
+    "services": [
+      {
+        "slug": "post-surgical-rehabilitation",
+        "name": "Post-Surgical Rehabilitation",
+        "shortDescription": "Specialized recovery programs for patients after orthopedic procedures.",
+        "description": "After joint replacements or orthopedic surgeries, proper rehabilitation is crucial for regaining full mobility. Our Boise physical therapists design individualized post-surgical programs that progress from initial recovery to full functional restoration.\n\nWe begin with gentle range-of-motion exercises and progress to strength training tailored to your specific procedure. For knee replacements common among active Boise residents, we incorporate terrain-specific training to prepare you for walking on uneven surfaces like the Boise Foothills trails.\n\nOur clinic features private treatment rooms for post-surgical patients who need extra space and support during early recovery phases. We coordinate closely with your surgeon to ensure seamless continuity of care.",
+        "process": [
+          "Step 1: Initial evaluation of surgical site, mobility restrictions, and pain levels",
+          "Step 2: Gentle manual therapy and modalities to reduce swelling and inflammation",
+          "Step 3: Progressive weight-bearing and functional movement exercises",
+          "Step 4: Sport or activity-specific training for complete recovery"
+        ],
+        "benefits": [
+          "Reduced recovery time through evidence-based protocols",
+          "Customized home exercise programs for between sessions",
+          "Coordination with your surgical team for optimal outcomes",
+          "Transition back to work or sports with confidence"
+        ],
+        "faq": [
+          {
+            "question": "How soon after surgery should I start physical therapy?",
+            "answer": "We typically begin within 1-2 weeks post-op, depending on your surgeon's recommendations and healing progress. Early mobilization helps prevent stiffness and promotes circulation."
+          },
+          {
+            "question": "Will therapy be painful after my surgery?",
+            "answer": "We carefully monitor your pain levels and adjust treatments accordingly. Some discomfort is normal, but we use modalities like ice and electrical stimulation to manage post-surgical pain effectively."
+          },
+          {
+            "question": "How long will I need post-surgical rehab?",
+            "answer": "Most patients require 6-12 weeks of therapy, depending on the procedure and your individual recovery rate. We'll provide a clear timeline after your initial evaluation."
+          }
+        ]
+      },
+      {
+        "slug": "sports-injury-recovery",
+        "name": "Sports Injury Recovery",
+        "shortDescription": "Targeted rehabilitation for athletes of all levels across Boise.",
+        "description": "Whether you're a weekend warrior at Eagle Island State Park or a competitive athlete, sports injuries require specialized care. Our physical therapists are experts in treating common Idaho sports injuries from skiing, mountain biking, and trail running.\n\nWe go beyond basic rehabilitation by analyzing your sport-specific movements. For runners dealing with IT band syndrome from Boise's hilly terrain, we assess your gait and recommend strengthening exercises. For cyclists with knee pain from the Boise River Greenbelt's long rides, we evaluate bike fit and pedaling mechanics.\n\nOur clinic features a functional training area with equipment to simulate sport-specific demands. We'll help you safely return to your favorite activities while reducing risk of re-injury.",
+        "process": [
+          "Step 1: Comprehensive movement analysis to identify biomechanical imbalances",
+          "Step 2: Targeted treatment for injury recovery and pain management",
+          "Step 3: Sport-specific strength and conditioning program",
+          "Step 4: Gradual return-to-play progression with injury prevention strategies"
+        ],
+        "benefits": [
+          "Faster return to sports with reduced re-injury risk",
+          "Personalized programs addressing your sport's unique demands",
+          "Video analysis to correct movement patterns",
+          "Coordination with coaches and trainers for seamless transition back to activity"
+        ],
+        "faq": [
+          {
+            "question": "Can physical therapy help prevent sports injuries?",
+            "answer": "Absolutely. Our injury prevention programs identify weaknesses or imbalances before they lead to problems. Many Boise athletes come in for pre-season screenings."
+          },
+          {
+            "question": "Do you work with young athletes?",
+            "answer": "Yes, we specialize in adolescent sports injuries and growth-related conditions common in active Boise teens. We modify treatments for developing bodies."
+          },
+          {
+            "question": "How is sports PT different than regular physical therapy?",
+            "answer": "We focus on restoring sport-specific function rather than just basic mobility. Treatments prepare you for the dynamic demands of your particular activity."
+          }
+        ]
+      },
+      {
+        "slug": "chronic-pain-management",
+        "name": "Chronic Pain Management",
+        "shortDescription": "Long-term solutions for persistent pain conditions.",
+        "description": "Living with chronic pain can make it difficult to enjoy Boise's outdoor lifestyle. Our pain management program combines manual therapy, therapeutic exercise, and education to help you regain control.\n\nWe understand how Idaho's variable climate affects chronic pain conditions. During winter months when cold aggravates arthritis, we focus on joint protection strategies. In summer when wildfire smoke limits outdoor activity, we adapt indoor exercise programs.\n\nOur therapists are trained in the latest pain science approaches. We help re-train your nervous system's response to pain while improving strength and mobility. Many patients find they can reduce reliance on medications through our comprehensive program.",
+        "process": [
+          "Step 1: Detailed pain assessment and functional limitations evaluation",
+          "Step 2: Manual therapy to improve tissue mobility and reduce pain signals",
+          "Step 3: Graded movement re-education and pacing strategies",
+          "Step 4: Long-term maintenance program for ongoing pain control"
+        ],
+        "benefits": [
+          "Reduced pain intensity and frequency",
+          "Improved ability to participate in daily activities",
+          "Strategies to manage weather-related pain fluctuations",
+          "Greater independence in pain management"
+        ],
+        "faq": [
+          {
+            "question": "How long until I see results with chronic pain treatment?",
+            "answer": "Most patients notice some improvement within 4-6 weeks, though chronic conditions often require ongoing management. We focus on measurable functional gains."
+          },
+          {
+            "question": "Will I have to stop my favorite activities?",
+            "answer": "Not necessarily. We help modify activities to make them more comfortable. Many patients return to hiking, gardening, and other treasured Idaho pastimes with adjustments."
+          },
+          {
+            "question": "Do you accept pain management referrals from doctors?",
+            "answer": "Yes, we work closely with Boise-area physicians to coordinate care for chronic pain patients, including those in workers' compensation cases."
+          }
+        ]
+      },
+      {
+        "slug": "vestibular-rehabilitation",
+        "name": "Vestibular Rehabilitation",
+        "shortDescription": "Specialized care for dizziness and balance disorders.",
+        "description": "Vertigo and balance problems can make navigating Boise's uneven sidewalks and winter ice particularly challenging. Our vestibular rehabilitation program helps patients regain stability and confidence in movement.\n\nWe treat conditions like BPPV (benign paroxysmal positional vertigo), which commonly affects older adults in our community. Using specialized repositioning maneuvers, we can often provide immediate relief from vertigo symptoms.\n\nFor complex balance disorders, we develop customized exercise programs that progress from simple to more challenging movements. Our clinic features balance equipment and technology to safely retrain your vestibular system, helping you feel steady on your feet again.",
+        "process": [
+          "Step 1: Comprehensive vestibular and balance assessment",
+          "Step 2: Specific maneuvers for positional vertigo when indicated",
+          "Step 3: Customized habituation and adaptation exercises",
+          "Step 4: Functional retraining for home and community safety"
+        ],
+        "benefits": [
+          "Reduced dizziness and improved balance",
+          "Increased confidence in daily activities",
+          "Customized home safety recommendations",
+          "Strategies to manage symptoms during weather changes"
+        ],
+        "faq": [
+          {
+            "question": "How do I know if I need vestibular therapy?",
+            "answer": "If you experience frequent dizziness, unsteadiness, or nausea with head movements, an evaluation can determine if vestibular rehab would help. Many patients come to us after falls or car accidents."
+          },
+          {
+            "question": "Is vestibular therapy uncomfortable?",
+            "answer": "Some exercises may temporarily increase symptoms as your system adapts, but we carefully monitor your response and adjust accordingly. Most patients tolerate treatment well."
+          },
+          {
+            "question": "Can this help with motion sickness in cars?",
+            "answer": "Yes, we can train your vestibular system to better tolerate motion, which helps many patients who struggle with Boise's winding foothills roads."
+          }
+        ]
+      },
+      {
+        "slug": "work-conditioning",
+        "name": "Work Conditioning",
+        "shortDescription": "Getting you back to work safely after injury.",
+        "description": "Boise's diverse workforce—from construction to tech—faces unique physical demands. Our work conditioning program bridges the gap between medical recovery and full return to job duties.\n\nFor warehouse workers lifting heavy packages or nurses at St. Luke's who are on their feet all day, we simulate actual job tasks during therapy. We analyze your workplace movements and design a progressive program to rebuild strength, endurance, and proper body mechanics.\n\nOur clinic features job-specific equipment including material handling stations, ladder climbing simulations, and computer workstations. We coordinate with employers when appropriate to facilitate successful return to work.",
+        "process": [
+          "Step 1: Job demands analysis and functional capacity evaluation",
+          "Step 2: Targeted conditioning for job-specific movements",
+          "Step 3: Simulated work tasks with progressive difficulty",
+          "Step 4: Transition plan for return to full duty"
+        ],
+        "benefits": [
+          "Faster return to work with reduced re-injury risk",
+          "Improved stamina for job demands",
+          "Proper body mechanics training",
+          "Coordination with employers and case managers"
+        ],
+        "faq": [
+          {
+            "question": "How is this different than regular physical therapy?",
+            "answer": "Work conditioning focuses specifically on job requirements rather than general mobility. We simulate your actual work tasks to ensure readiness."
+          },
+          {
+            "question": "Do you work with workers' compensation cases?",
+            "answer": "Yes, we're experienced with Idaho workers' compensation requirements and regularly communicate with claims adjusters."
+          },
+          {
+            "question": "Can you help with job modifications?",
+            "answer": "Absolutely. We provide ergonomic recommendations and transitional duty suggestions to help employers accommodate recovering workers."
+          }
+        ]
+      },
+      {
+        "slug": "pediatric-physical-therapy",
+        "name": "Pediatric Physical Therapy",
+        "shortDescription": "Supporting Boise's youngest patients in reaching milestones.",
+        "description": "From toddlers taking first steps to teens recovering from sports injuries, we provide compassionate care for children at all developmental stages. Our pediatric specialists create fun, engaging treatment plans that feel more like play than therapy.\n\nWe help children with conditions like cerebral palsy, developmental delays, or post-fracture recovery. For school-aged kids, we coordinate with Boise School District therapists to ensure continuity of care between clinic and classroom.\n\nOur colorful treatment area includes specialized equipment sized for children. Parents appreciate our family-centered approach that teaches them how to support their child's progress at home, in the park, or on Boise's many playgrounds.",
+        "process": [
+          "Step 1: Comprehensive developmental or injury assessment",
+          "Step 2: Play-based therapeutic activities targeting specific goals",
+          "Step 3: Family education and home program development",
+          "Step 4: School/community participation strategies"
+        ],
+        "benefits": [
+          "Improved motor skills and independence",
+          "Family-centered approach with parent education",
+          "Seamless coordination with schools and other providers",
+          "Playful environment that keeps kids engaged"
+        ],
+        "faq": [
+          {
+            "question": "At what age should I be concerned about developmental delays?",
+            "answer": "Early intervention is key. If your child isn't meeting typical milestones like sitting, crawling, or walking within expected timeframes, an evaluation can determine if therapy would help."
+          },
+          {
+            "question": "Do you work with children who have special needs?",
+            "answer": "Yes, we have extensive experience with various diagnoses and collaborate with Boise's network of pediatric specialists."
+          },
+          {
+            "question": "How can I prepare my child for their first visit?",
+            "answer": "We recommend framing it as a fun place to play and move. Young children often enjoy our therapy gym with its colorful equipment and games."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Mark R.",
+        "rating": 5,
+        "service": "Sports Injury Recovery",
+        "text": "After tearing my ACL skiing at Bogus Basin, I thought my active lifestyle was over. The team at Apex created a progressive rehab plan that had me back on the trails within 6 months. Their knowledge of sports-specific movements made all the difference - they even analyzed my skiing form videos to prevent future injuries.",
+        "date": "2024-03-15"
+      },
+      {
+        "name": "Sarah K.",
+        "rating": 5,
+        "service": "Chronic Pain Management",
+        "text": "Living with fibromyalgia made Boise's cold winters unbearable. My therapist taught me pacing strategies and designed an indoor exercise routine for days when the weather flares my symptoms. After 3 months, I've reduced my pain medication by half and can enjoy short walks along the Greenbelt again.",
+        "date": "2024-02-28"
+      },
+      {
+        "name": "James and Linda T.",
+        "rating": 5,
+        "service": "Pediatric Physical Therapy",
+        "text": "Our 4-year-old was behind on gross motor skills and hated traditional therapy. The team at Apex made sessions so fun with obstacle courses and games that he asks when he can go back. He's now keeping up with his friends at Camel's Back Park playground.",
+        "date": "2024-01-10"
+      },
+      {
+        "name": "Roberta S.",
+        "rating": 5,
+        "service": "Vestibular Rehabilitation",
+        "text": "Vertigo made me afraid to leave my house in winter. After just two visits including the Epley maneuver, my dizziness improved dramatically. They taught me simple exercises to do at home and gave great advice for navigating icy sidewalks safely. Life-changing care!",
+        "date": "2023-12-05"
+      },
+      {
+        "name": "Carlos M.",
+        "rating": 5,
+        "service": "Work Conditioning",
+        "text": "As a roofer, my back injury threatened my livelihood. Apex's work conditioning program rebuilt my strength with simulated roofing movements. They even visited my worksite to recommend equipment modifications. I'm back full-time with no pain thanks to their practical approach.",
+        "date": "2023-11-18"
+      },
+      {
+        "name": "Dr. Emily P.",
+        "rating": 5,
+        "service": "Post-Surgical Rehabilitation",
+        "text": "Referring my joint replacement patients to Apex gives me confidence they'll receive excellent care. Their detailed progress reports and adherence to protocols make coordination easy. Patients consistently achieve better outcomes than with other clinics we've worked with.",
+        "date": "2023-10-30"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Boise Physical Therapy Experts | Apex Physical Therapy",
+        "description": "Trusted Boise physical therapists helping patients recover from injury, surgery, and chronic pain. Personalized care for active Idaho lifestyles."
+      },
+      "about": {
+        "title": "About Our Boise Physical Therapy Clinic | Apex PT",
+        "description": "Learn about our experienced team and patient-centered approach to physical therapy in Boise, ID. Serving the Treasure Valley since 2012."
+      },
+      "services": {
+        "title": "Physical Therapy Services in Boise | Apex PT",
+        "description": "Comprehensive physical therapy services tailored to Boise residents' active lifestyles. From sports rehab to chronic pain management."
+      },
+      "contact": {
+        "title": "Contact Boise's Physical Therapy Experts | Apex PT",
+        "description": "Schedule your appointment at our Boise physical therapy clinic. Convenient location serving all of Ada County and the Treasure Valley."
+      },
+      "reviews": {
+        "title": "Patient Success Stories | Apex Physical Therapy Boise",
+        "description": "Read real reviews from our Boise physical therapy patients. See how we've helped people regain mobility and return to active lives."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Boise",
+        "slug": "boise-id",
+        "state": "ID",
+        "content": "At Apex Physical Therapy, we are proud to serve the vibrant community of Boise, ID. Our clinic is dedicated to helping residents recover from injuries, manage chronic pain, and improve mobility with personalized treatment plans. Whether you're an athlete, a busy professional, or a senior looking to stay active, our expert therapists tailor rehabilitation programs to fit your lifestyle. Boise's active outdoor culture makes physical health a priority, and we are here to support your wellness journey every step of the way.",
+        "localContext": "Boise is known for its outdoor recreation, thriving downtown, and strong sense of community.",
+        "nearbyAreas": [
+          "Meridian",
+          "Garden City",
+          "Eagle"
+        ]
+      },
+      {
+        "city": "Meridian",
+        "slug": "meridian-id",
+        "state": "ID",
+        "content": "Apex Physical Therapy is committed to providing top-quality care to the residents of Meridian, ID. Our team specializes in treating sports injuries, post-surgical rehabilitation, and workplace-related strains. With Meridian's growing population and emphasis on family-friendly living, we focus on helping patients of all ages regain strength and flexibility. From young athletes to active seniors, we design therapy programs that align with your goals and daily activities.",
+        "localContext": "Meridian is one of Idaho's fastest-growing cities, featuring excellent schools and community parks.",
+        "nearbyAreas": [
+          "Boise",
+          "Eagle",
+          "Nampa"
+        ]
+      },
+      {
+        "city": "Nampa",
+        "slug": "nampa-id",
+        "state": "ID",
+        "content": "Serving Nampa, ID, Apex Physical Therapy offers compassionate and effective rehabilitation services to help you get back to doing what you love. Our clinic addresses a wide range of conditions, including back pain, joint issues, and post-injury recovery. Nampa's blend of agricultural roots and modern growth means we see patients with diverse needs, from farm workers to office professionals. Let our experienced therapists guide you toward pain-free movement and long-term wellness.",
+        "localContext": "Nampa combines small-town charm with urban amenities, including the Ford Idaho Center.",
+        "nearbyAreas": [
+          "Caldwell",
+          "Meridian",
+          "Kuna"
+        ]
+      },
+      {
+        "city": "Eagle",
+        "slug": "eagle-id",
+        "state": "ID",
+        "content": "Apex Physical Therapy is dedicated to supporting the health and mobility of Eagle, ID residents. Our clinic provides specialized care for orthopedic injuries, balance disorders, and post-surgical recovery. Eagle's affluent, active community benefits from our tailored approach to physical therapy, whether recovering from a sports injury or managing arthritis. We prioritize one-on-one attention to ensure you achieve optimal results and return to your favorite activities with confidence.",
+        "localContext": "Eagle is an upscale suburb with scenic riverside trails and golf courses.",
+        "nearbyAreas": [
+          "Boise",
+          "Meridian",
+          "Star"
+        ]
+      },
+      {
+        "city": "Caldwell",
+        "slug": "caldwell-id",
+        "state": "ID",
+        "content": "At Apex Physical Therapy, we’re proud to serve the Caldwell, ID community with expert rehabilitation services. Our team works closely with patients to address pain, improve mobility, and prevent future injuries. Caldwell’s strong agricultural and industrial workforce often faces physical demands, and we specialize in treatments for work-related strains and repetitive motion injuries. Whether you're recovering from surgery or seeking relief from chronic discomfort, we’re here to help.",
+        "localContext": "Caldwell is home to the College of Idaho and a growing downtown scene.",
+        "nearbyAreas": [
+          "Nampa",
+          "Middleton",
+          "Parma"
+        ]
+      },
+      {
+        "city": "Kuna",
+        "slug": "kuna-id",
+        "state": "ID",
+        "content": "Apex Physical Therapy provides personalized care to the residents of Kuna, ID, helping them overcome injuries and improve their quality of life. From manual therapy to therapeutic exercises, our treatments are designed to meet the needs of Kuna’s families, farmers, and commuters. Whether you’re dealing with an auto accident injury or age-related stiffness, our team creates a plan to restore your strength and independence in this tight-knit community.",
+        "localContext": "Kuna offers a rural feel with easy access to Boise’s amenities.",
+        "nearbyAreas": [
+          "Meridian",
+          "Nampa",
+          "Star"
+        ]
+      },
+      {
+        "city": "Star",
+        "slug": "star-id",
+        "state": "ID",
+        "content": "Serving Star, ID, Apex Physical Therapy delivers compassionate rehabilitation services tailored to your unique needs. Our clinic helps patients recover from surgeries, sports injuries, and accidents with evidence-based techniques. Star’s peaceful, family-oriented atmosphere aligns with our patient-centered approach, ensuring each individual receives the attention they deserve. Let us help you regain mobility and live an active, pain-free life in this growing community.",
+        "localContext": "Star is a small town with a strong sense of community and rural landscapes.",
+        "nearbyAreas": [
+          "Eagle",
+          "Middleton",
+          "Kuna"
+        ]
+      },
+      {
+        "city": "Middleton",
+        "slug": "middleton-id",
+        "state": "ID",
+        "content": "Apex Physical Therapy is proud to serve Middleton, ID, with comprehensive rehabilitation services. Our team specializes in treating back pain, joint conditions, and mobility challenges for patients of all ages. Middleton’s mix of agricultural and residential life means we tailor therapies for everyone from farmers to retirees. With a focus on education and prevention, we empower you to take control of your physical health and stay active in this close-knit town.",
+        "localContext": "Middleton is a small, growing community with a historic downtown.",
+        "nearbyAreas": [
+          "Caldwell",
+          "Star",
+          "Nampa"
+        ]
+      },
+      {
+        "city": "Garden City",
+        "slug": "garden-city-id",
+        "state": "ID",
+        "content": "At Apex Physical Therapy, we’re dedicated to helping Garden City, ID residents achieve their rehabilitation goals. Our clinic offers treatments for sports injuries, chronic pain, and post-surgical recovery in this eclectic community. Garden City’s vibrant arts scene and outdoor recreation attract active individuals, and we’re here to keep them moving comfortably. Whether you're a cyclist, artist, or busy parent, our personalized care will get you back to doing what you love.",
+        "localContext": "Garden City is an artsy enclave with riverfront access and quirky local businesses.",
+        "nearbyAreas": [
+          "Boise",
+          "Eagle",
+          "Meridian"
+        ]
+      },
+      {
+        "city": "Emmett",
+        "slug": "emmett-id",
+        "state": "ID",
+        "content": "Apex Physical Therapy extends expert care to the residents of Emmett, ID, supporting their recovery and wellness journeys. Our clinic addresses a variety of conditions, including work-related injuries, arthritis, and mobility limitations. Emmett’s small-town charm and agricultural heritage mean we see patients who value hands-on, practical care. We combine traditional techniques with modern therapies to help you stay active in this close-knit community.",
+        "localContext": "Emmett is known for its cherry orchards and scenic Payette River access.",
+        "nearbyAreas": [
+          "Star",
+          "Middleton",
+          "Caldwell"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "post-surgical-rehabilitation": "/images/service-post-surgical-rehabilitation.webp",
+      "sports-injury-recovery": "/images/service-sports-injury-recovery.webp",
+      "chronic-pain-management": "/images/service-chronic-pain-management.webp",
+      "vestibular-rehabilitation": "/images/service-vestibular-rehabilitation.webp",
+      "pediatric-physical-therapy": "/images/service-pediatric-physical-therapy.webp",
+      "work-conditioning": "/images/service-work-conditioning.webp"
+    },
+    "servicesResponsive": {
+      "post-surgical-rehabilitation": {
+        "src": "/images/service-post-surgical-rehabilitation.webp",
+        "srcset": "/images/service-post-surgical-rehabilitation-400w.webp 400w, /images/service-post-surgical-rehabilitation-800w.webp 800w, /images/service-post-surgical-rehabilitation-1200w.webp 1200w, /images/service-post-surgical-rehabilitation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "sports-injury-recovery": {
+        "src": "/images/service-sports-injury-recovery.webp",
+        "srcset": "/images/service-sports-injury-recovery-400w.webp 400w, /images/service-sports-injury-recovery-800w.webp 800w, /images/service-sports-injury-recovery-1200w.webp 1200w, /images/service-sports-injury-recovery.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "chronic-pain-management": {
+        "src": "/images/service-chronic-pain-management.webp",
+        "srcset": "/images/service-chronic-pain-management-400w.webp 400w, /images/service-chronic-pain-management-800w.webp 800w, /images/service-chronic-pain-management-1200w.webp 1200w, /images/service-chronic-pain-management.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "vestibular-rehabilitation": {
+        "src": "/images/service-vestibular-rehabilitation.webp",
+        "srcset": "/images/service-vestibular-rehabilitation-400w.webp 400w, /images/service-vestibular-rehabilitation-800w.webp 800w, /images/service-vestibular-rehabilitation-1200w.webp 1200w, /images/service-vestibular-rehabilitation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "pediatric-physical-therapy": {
+        "src": "/images/service-pediatric-physical-therapy.webp",
+        "srcset": "/images/service-pediatric-physical-therapy-400w.webp 400w, /images/service-pediatric-physical-therapy-800w.webp 800w, /images/service-pediatric-physical-therapy-1200w.webp 1200w, /images/service-pediatric-physical-therapy.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "work-conditioning": {
+        "src": "/images/service-work-conditioning.webp",
+        "srcset": "/images/service-work-conditioning-400w.webp 400w, /images/service-work-conditioning-800w.webp 800w, /images/service-work-conditioning-1200w.webp 1200w, /images/service-work-conditioning.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
